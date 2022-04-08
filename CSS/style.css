@@ -55,7 +55,7 @@ h2{
   }
   
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 2600px) {
     .topnav a, .topnav input[type=text] {
       float: none;
       display: block;
@@ -69,8 +69,15 @@ h2{
     }
   }
 
-.footer-div{
-  text-align: center;
+.footer-general{
+  background-color: #ef4565;
+  color: #fffffe;
+  font-family: roboto;
+}
+
+.footer-div-about-us{
+  
+  margin-left: 10%;
 }
 
   
