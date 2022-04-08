@@ -81,11 +81,9 @@ h2{
   background-color: #ef4565;
   color: #fffffe;
   font-family: roboto;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  position: sticky;
   text-align: center;
 }
 
