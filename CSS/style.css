@@ -77,7 +77,18 @@ h2{
 
 .footer-div-about-us{
   
+  text-align: center;
   margin-left: 10%;
+  margin-right: 10%;  
+}
+
+.about-us-title{
+  
+}
+
+.footer-div-about-us-sub{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
   
