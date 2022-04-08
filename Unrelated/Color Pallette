@@ -1,11 +1,11 @@
-Background:#0f0e17
-Paragraphs:#a7a9be
+Background:#fffffe
+Paragraphs:#5f6c7b
 Button Text:#fffffe
-Button:#ff8906
-Headline:#fffffe
+Button:#ef4565
+Headline:#094067
 
-Stroke:#000000
-Highlight:#ff8906
-Tertiary:#e53170
+Stroke:#094067
+Highlight:#3da9fc
+Tertiary:#ef4565
 Main:#fffffe
-Seconday:#f25f4c
+Seconday:#90b4ce
