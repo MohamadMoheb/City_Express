@@ -1,25 +1,20 @@
-.placeholder{
-    width: 100px;
-    height: 100px;
-
-    display: block;
-
-    margin-left: auto;
-    margin-right: auto;
+body{
+    background-color: #fffffe;
 }
 
 h1{
     text-align: center;
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #094067;
 }
 
 h2{
     text-align: center;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #094067;
 }
-
 
 .topnav {
     overflow: hidden;
