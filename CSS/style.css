@@ -1,5 +1,6 @@
 body{
-    background-color: #fffffe;
+    /*background-color: #fffffe;*/
+    background-image: url(/1.png);
 }
 
 h1{
@@ -97,7 +98,7 @@ h2{
 .footer-div-about-us-sub{
   margin-left: 10%;
   margin-right: 10%;
-  
+text-align: center;
 }
 
   
