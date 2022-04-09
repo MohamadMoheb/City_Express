@@ -1,27 +1,26 @@
 body{
-    /*background-color: #fffffe;*/
-    background-image: url(/1.png);
+  background-color: #fffffe;
 }
 
 h1{
-    text-align: center;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #094067;
+  text-align: center;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #094067;
 }
 
 h2{
-    text-align: center;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #094067;
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #094067;
 }
 
 
 .topnav {
-    overflow: hidden;
-    background-color: #e9e9e9;
-  }
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -130,40 +129,3 @@ h2{
     color:#aaa;
     margin-bottom:0;
   }
-  
-/*
-.footer-general{
-  background-color: #ef4565;
-  color: #fffffe;
-  font-family: roboto;
-  left: 0;
-  bottom: 0;
-  width: 100%;
- 
-  text-align: center;
-}
-
-.footer-div-about-us{
-  
-  text-align: center;
-  margin-left: 47%;
-  margin-right: 47%;  
-}
-
-.footer-div-about-us-sub{
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
-}
-
-.warning:hover {
-  background: whitesmoke;
-  color: white;
-  text-decoration: none;
-}
-
-.logo{
-  border-image-width: auto;
-  float: right;
-}
-*/
