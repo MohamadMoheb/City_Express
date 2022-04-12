@@ -10,9 +10,16 @@ body{
     rgba(15, 80, 170, 0.8));
 }
 
+hr{
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+
 .text{
   text-align: center;
-  font-size: large;
+  font-size: 35px;
+  font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
