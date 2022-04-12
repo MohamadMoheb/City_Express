@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "CSS"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "contact page"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "City_Express"
+	}
+}
