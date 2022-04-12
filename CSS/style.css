@@ -27,7 +27,7 @@ a{
   linear-gradient(to right bottom, 
   rgba(60,170,250, 0.8),
   rgba(15, 80, 170, 0.8)),
-  url(/IMG/HeaderBG.jpg);
+  url(/IMG/Background/HeaderBG.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
