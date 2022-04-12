@@ -3,6 +3,12 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #5f6c7b;
+  background-color: #fffffe;
+}
+
+a{
+  text-decoration: none;
+  color: #5f6c7b;
 }
 
 .header {
@@ -80,32 +86,22 @@ body {
 }
 
 footer{
-  background-image: 
-  linear-gradient(to right bottom, 
-  rgba(60,170,250, 0.8),
-  rgba(15, 80, 170, 0.8)),
-  url(/IMG/HeaderBG.jpg);
+  background-color: #f7f5f5;
   text-align: center;
   padding: 50px;
+  text-decoration: line-through;
 }
 
 .footer-button{
-  background-color: #fff;
-  color: #777;
-  font-size: 20px;
-  border-radius: 100px;
-
-  text-decoration: none;
-  padding: 7.5px 15px;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
   display: inline-block;
 }
 
-.footer-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.footer-button:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+.footer-button:hover{
+  background-color: #ebe8e8;
 }
