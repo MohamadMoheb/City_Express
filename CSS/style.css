@@ -6,6 +6,10 @@ body {
   background-color: #fffffe;
 }
 
+h1{
+  text-decoration: none !important;
+}
+
 a{
   text-decoration: none;
   color: #5f6c7b;
@@ -88,8 +92,7 @@ a{
 footer{
   background-color: #f7f5f5;
   text-align: center;
-  padding: 50px;
-  text-decoration: line-through;
+  padding: 60px;
 }
 
 .footer-button{
