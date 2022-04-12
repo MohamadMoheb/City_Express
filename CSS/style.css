@@ -1,7 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -10,7 +10,7 @@ body {
   background-image: 
   linear-gradient(to right bottom, 
   rgba(61,169,252, 0.8),
-  rgba(30, 108, 217, 0.8)),
+  rgba(15, 80, 169, 0.8)),
   url(/IMG/HeaderBG.jpg);
   background-size: cover;
   background-position: top;
