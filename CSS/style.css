@@ -5,6 +5,7 @@ body {
   color: #5f6c7b;
   background-color: #fffffe;
   margin: 0;  /*To stretch footer and header to full page width/height */
+  overflow-x: hidden;  /* Remove chance of horizontal scroll */
 }
 
 h1{
@@ -14,6 +15,10 @@ h1{
 a{
   text-decoration: none;
   color: #5f6c7b;
+}
+
+::-webkit-scrollbar {
+  display: none;  /*Remove Verical scrollbar but keep functionality */
 }
 
 .header {
