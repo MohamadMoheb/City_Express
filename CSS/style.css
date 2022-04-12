@@ -4,6 +4,7 @@ body {
   line-height: 1.7;
   color: #5f6c7b;
   background-color: #fffffe;
+  margin: 0;  /*To stretch footer and header to full page width/height */
 }
 
 h1{
