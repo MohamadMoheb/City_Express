@@ -6,15 +6,16 @@ body {
 }
 
 footer{
-  background-color: #ef4565;
+  background-color: rgba(35, 120, 210, 0.8);
+  text-align: center;
 }
 
 .header {
   height: 100vh;
   background-image: 
   linear-gradient(to right bottom, 
-  rgba(239, 69, 101, 0.35),
-  rgba(61,169,252, 0.9)),
+  rgba(60,170,250, 0.8),
+  rgba(15, 80, 170, 0.8)),
   url(/IMG/HeaderBG.jpg);
   background-size: cover;
   background-position: top;
@@ -78,3 +79,9 @@ footer{
   color: #777;
   font-size: 14px;
 }
+
+/*
+.button-footer{
+
+}
+*/
