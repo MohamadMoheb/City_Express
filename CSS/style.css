@@ -8,15 +8,6 @@ body {
   overflow-x: hidden;  /* Remove chance of horizontal scroll */
 }
 
-@keyframes slide {
-  0% {
-   transform: translate3d(0, 0, 0);
-  }
- 100% {
-  transform: translate3d(-1692px, 0, 0);
- }
-}
-
 h1{
   text-decoration: none !important;
 }
@@ -45,7 +36,7 @@ a{
 
 .text-box {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -128,6 +119,10 @@ footer{
 }
 
 
+
+
+
+/*
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 *{
@@ -233,12 +228,13 @@ footer{
   cursor: pointer;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder { 
   color: #9fa3b1;
 }
-::-moz-placeholder { /* Firefox 19+ */
+::-moz-placeholder { 
  color: #9fa3b1;
 }
-:-ms-input-placeholder { /* IE 10+ */
+:-ms-input-placeholder { 
   color: #9fa3b1;
 }
+*/
