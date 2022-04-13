@@ -8,6 +8,15 @@ body {
   overflow-x: hidden;  /* Remove chance of horizontal scroll */
 }
 
+@keyframes slide {
+  0% {
+   transform: translate3d(0, 0, 0);
+  }
+ 100% {
+  transform: translate3d(-1692px, 0, 0);
+ }
+}
+
 h1{
   text-decoration: none !important;
 }
@@ -36,7 +45,7 @@ a{
 
 .text-box {
   position: absolute;
-  top: 50%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
