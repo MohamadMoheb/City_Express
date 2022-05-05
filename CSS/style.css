@@ -96,8 +96,10 @@ a{
 
 footer{
   /* background-color: #f7f5f5; */
-  background-color: rgb(156, 78, 78);
+  background-color: rgba(60,170,250);
+  width: 100%;
   text-align: center;
+  overflow: hidden;
   padding: 60px;
 }
 
@@ -108,7 +110,6 @@ footer{
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  display: inline-block;
 }
 
 .footer-button:hover{
