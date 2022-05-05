@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/CSS/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="/IMG/FavIcon/1.png">
+        <link rel="stylesheet" href="/CSS/category.css">
+        <link rel="stylesheet" href="/CSS/buttonshomepage.css">
+        <link rel="stylesheet" href="/CSS/contact.css">
+        <title>
+            City Express || contact
+        </title>
+
+    </head>
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+        <form action="" method="post">
+            <table width="50%" border="1" align="center" cellspacing="0" cellpadding="5">
+                <caption><h3>Registration</h3></caption>
+                <tr>
+                    <td rowspan="12"><img src="logo.png"  height="300"/></td>
+                </tr>
+                <tr>
+                    <th>Full Name</th>
+                    <td><input type="text" name="fn" placeholder="your full name" required /></td>
+                </tr>
+                <tr>
+                    <th >Country</th>
+                    <td>
+                        <select name="country" required>
+                            <option value="">Select region</option>
+                            <option value="ARG">Argentina</option>
+                            <option value="BRA">Brazil</option>
+                            <option value="LEB" selected>Lebanon</option>
+                            <option value="USA">USA</option>   
+                            <option value="Africa">Africa</option>  
+                            <option value="canada">canada</option>  
+                            <option value="Iraq">iraq</option>  
+                            <option value="Syria">Syria</option>  
+                           
+                        </select>                        
+                    </td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td>
+                        <input type="number" name="age" min="2" max="10"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        <input type="radio" name="gender" value="m"> Male
+                        <input type="radio" name="gender" value="f"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>
+                        <input type="email" name="email" placeholder="name@domain.com" required />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Username</th>
+                    <td><input type="text" name="user" required /></td>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <td><input type="password" name="pass" required /></td>
+                </tr>
+                <tr>
+                    <th>Confirm Password</th>
+                    <td><input type="password" name="cpass" required /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Notes:<br/>
+                        <textarea name="notes" cols="50" rows="5" placeholder="write your text here"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Profile Picture</th>
+                    <td><input type="file" name="picture"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Register"/> 
+                        <input type="reset" value="Clear" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+        </body>
+        </html>
+        
