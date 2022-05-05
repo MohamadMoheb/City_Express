@@ -95,7 +95,8 @@ a{
 }
 
 footer{
-  background-color: #f7f5f5;
+  /* background-color: #f7f5f5; */
+  background-color: rgb(156, 78, 78);
   text-align: center;
   padding: 60px;
 }
